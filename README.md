@@ -55,11 +55,3 @@ The server provides a `search_news` tool with the following parameters:
 2. It then searches Google News using both the original and related keywords
 3. For each news article found, it generates an AI-powered insight in Traditional Chinese
 4. Results are returned as a JSON string containing titles, links, publication dates, descriptions, and AI-generated insights
-
-## License
-
-[Your chosen license]
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. 

@@ -27,7 +27,7 @@ def search_news(keyword: str, language: str = "zh-TW", period: str = "2d", max_r
     Returns:
         str: 前 max_results 筆新聞的 JSON 字串，包含 Gemini 產生的摘要。
     """
-    GEMINI_API_KEY = "AIzaSyBA6NTSa8fQDFSHddyd0fDKirdghj9Anig"
+    GEMINI_API_KEY = "" # 個人API key
     GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" + GEMINI_API_KEY
 
     def get_related_keywords(keyword):
